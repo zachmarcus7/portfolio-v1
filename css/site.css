@@ -941,14 +941,14 @@ main, body {
 }
 
 .number-link {
-    color: white;
+    color: rgb(170, 170, 170);
     transition: all ease-in 0.4s;
 }
 
 .number-link:hover {
-    color: rgb(170, 170, 170);
+    color: rgb(150, 150, 150);
 }
 
 .number-link:active {
-    color: rgb(150, 150, 150);
+    color: rgb(130, 130, 130);
 }
