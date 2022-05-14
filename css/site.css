@@ -939,3 +939,16 @@ main, body {
 .footer-container {
     background-color: rgb(5, 14, 45);
 }
+
+.number-link {
+    color: white;
+    transition: all ease-in 0.4s;
+}
+
+.number-link:hover {
+    color: rgb(170, 170, 170);
+}
+
+.number-link:active {
+    color: rgb(150, 150, 150);
+}
