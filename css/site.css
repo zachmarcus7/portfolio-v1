@@ -79,14 +79,15 @@ html, body {
     height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, li {
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
+h1 {
+    font-family: 'Inter', sans-serif;
     color: white;
 }
 
-.bold-header-font {
-    font-weight: 900;
+h2, h3, h4, h5, h6, li {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    color: white;
 }
 
 a {
@@ -476,14 +477,14 @@ ul li {
     animation: title-links-fade-in 1.9s;
 }
 
-.banner-links li{
+.banner-links li {
     list-style-type: none; 
     display: inline-block;
 }
 
 .banner-header {
-    font-weight: 1000;
-    letter-spacing: -1.8px;
+    font-weight: 700 !important;
+    letter-spacing: -1.9px;
     animation: title-fade-in 0.9s;
 }
 
@@ -956,4 +957,17 @@ main, body {
 
 .number-link:active {
     color: rgb(130, 130, 130);
+}
+
+.icon-link {
+    cursor: pointer;
+    color: rgb(89, 183, 157);
+}
+
+.icon-link:hover {
+    color: rgb(80, 80, 80);
+}
+
+.icon-link:active {
+    color: rgb(50, 50, 50);
 }
