@@ -853,7 +853,7 @@ ul li {
 
 .resume-container {
     position: relative;
-    height: 800px;
+    min-height: 650px;
     width: 100%;
     background: url(../images/resume-background.jpg) no-repeat top center;
     background-size: cover !important;
@@ -970,4 +970,12 @@ main, body {
 
 .icon-link:active {
     color: rgb(50, 50, 50);
+}
+
+.no-right-margin {
+    margin-right: 0 !important;
+}
+
+.same-line {
+    white-space: nowrap !important;
 }
