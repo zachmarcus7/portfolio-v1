@@ -19,6 +19,19 @@ a.navbar-brand {
   border-color: #1861ac;
 }
 
+header {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background: url(../images/fremont-bridge-24.jpg) no-repeat top center;
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -272,18 +285,6 @@ p {
 
 /* Header
 -------------------------------------------------- */
-header {
-    position: relative;
-    height: 800px;
-    width: 100%;
-    background: url(../images/fremont-bridge-24.jpg) no-repeat top center;
-    background-size: cover !important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
-    overflow: hidden;
-}
 
 .navbar {
     opacity: 90%;
