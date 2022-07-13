@@ -971,3 +971,53 @@ main, body {
 .same-line {
     white-space: nowrap !important;
 }
+
+/* */
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    transform: translateY(100%);
+}
+
+.carousel-controls {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top: 0px;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    width: 25%;
+    text-align: center;
+    background-color: rgb(20, 70, 93);
+}
+
+.controls {
+    position: relative;
+    display: block;
+}
+
+.carousel-control {
+   position: absolute;
+   top: 25.5px;
+   bottom: 0;
+   left: 0;
+   background: #000000;
+   font-size: 5px;
+   background: none !important;
+   color: #000 !important;
+   text-align: center;
+}
+
+.carousel-control i {
+     font-size: 20px;
+}
+
+.carousel-control.left {
+   left: 0;
+}
+
+.carousel-control.right {
+   right: 0;
+   
+}
