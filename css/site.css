@@ -716,12 +716,15 @@ ul li {
 .modal-content {
     border-radius: 0px !important;
     border: 0px !important;
+    width: auto;
 }
 
 .modal-header {
     display: block;
     border-bottom: 0px !important;
     z-index: 101;
+    width: auto;
+    border: 0px !important;
 }
 
 .modal-header img {
