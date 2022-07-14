@@ -713,31 +713,6 @@ ul li {
     font-weight: bold;
 }
 
-.modal-content {
-    border-radius: 0px !important;
-    border: 0px !important;
-    width: auto;
-    overflow: hidden;
-    background-color: white;
-}
-
-.modal-header {
-    display: block;
-    border-bottom: 0px !important;
-    z-index: 101;
-    width: auto;
-    border: 0px !important;
-}
-
-.modal-header img {
-    display: block;
-    right: 0 !important;
-    left: 0 !important;
-    height: auto !important;
-    width: 100% !important;
-    border-radius: 0px !important;
-    border: 0px !important;
-}
 
 .modal-header img:hover {
     opacity: 100% !important;
@@ -745,7 +720,6 @@ ul li {
 
 .modal-body {
     color: dimgray;
-    background-color: white;
 }
 
 .modal-body h6 {
@@ -772,14 +746,6 @@ ul li {
 
 .project-modal-dismiss h6:active {
     color: rgb(170, 170, 170);
-}
-
-.modal-open[style] {
-    padding-right: 0px !important;
-}
-
-.modal {
-    overflow-y: auto;
 }
 
 .modal-open {
