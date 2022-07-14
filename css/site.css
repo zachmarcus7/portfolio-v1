@@ -725,6 +725,9 @@ ul li {
 }
 
 .modal-header img {
+    display: block;
+    right: 0 !important;
+    left: 0 !important;
     height: auto !important;
     width: 100% !important;
     border-radius: 0px !important;
