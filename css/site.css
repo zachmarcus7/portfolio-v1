@@ -719,6 +719,7 @@ ul li {
 }
 
 .modal-header {
+    display: block;
     border-bottom: 0px !important;
     z-index: 101;
 }
