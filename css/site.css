@@ -718,7 +718,7 @@ ul li {
     border: 0px !important;
     width: auto;
     overflow: hidden;
-    background-color: transparent !important;
+    background-color: white;
 }
 
 .modal-header {
@@ -745,7 +745,7 @@ ul li {
 
 .modal-body {
     color: dimgray;
-    background-color: white !important;
+    background-color: white !
 }
 
 .modal-body h6 {
