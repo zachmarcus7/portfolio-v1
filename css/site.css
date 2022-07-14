@@ -748,9 +748,11 @@ ul li {
     color: rgb(170, 170, 170);
 }
 
-.modal-open {
-    overflow: auto;
+.modal-header img {
+    border-bottom-right-radius: 0px !important;
 }
+
+
 
 .project-repo-text {
     transition: all 0.4s;
