@@ -517,6 +517,12 @@ ul li {
     animation: title-fade-in 0.9s;
 }
 
+.github-icon,
+.linkedin-icon,
+.mail-icon {
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+
 .github-icon {
     color: rgb(36, 41, 47);
     background: rgb(36, 41, 47);
@@ -641,10 +647,11 @@ ul li {
 
 .about-right-container {
     background-color: rgb(20, 70, 93) !important;
-    border-radius: 2%;
+    border-radius: 0.2rem;
     text-align: left !important;
     padding: 3%;
     padding-bottom: 5%;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
 }
 
 .about-right-container h6 {
@@ -671,6 +678,7 @@ ul li {
     width: 6rem;
     object-fit: contain;
     border-radius: 50%;
+    box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f;
 }
 
 .about-image-heading {
@@ -720,6 +728,10 @@ ul li {
     cursor: pointer;
 }
 
+.project-link img {
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+
 .project-link-container img {
     height: 100%;
     width: 100%;
@@ -746,12 +758,12 @@ ul li {
     font-weight: bold;
 }
 
-
 .modal-header img:hover {
     opacity: 100% !important;
 }
 
 .modal-body {
+    background: white !important;
     color: dimgray;
 }
 
@@ -785,7 +797,10 @@ ul li {
     border-bottom-right-radius: 0px !important;
 }
 
-
+.modal-content {
+    background-clip: content-box !important;
+    background-color: transparent !important;
+}
 
 .project-repo-text {
     transition: all 0.4s;
@@ -874,10 +889,11 @@ ul li {
 
 .resume-left-container {
     background-color: rgb(33, 82, 105) !important;
-    border-radius: 2%;
+    border-radius: 0.2rem;
     text-align: left !important;
     padding: 3%;
     padding-bottom: 5%;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
 }
 
 .resume-left-container h6 {
