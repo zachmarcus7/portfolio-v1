@@ -408,7 +408,7 @@ ul li {
         transform: translateY(0%);
     }
     93% {
-        transform: translateY(-20%);
+        transform: translateY(-28%);
     }
     100% {
         visibility: visible;
@@ -450,6 +450,33 @@ ul li {
     }
 }
 
+/* Landing Page
+-------------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+    .banner-links {
+        font-size: 30px;
+    }
+    .mail-icon,
+    .github-icon,
+    .linkedin-icon {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .banner-links {
+        font-size: 37px;
+    }
+    .mail-icon,
+    .github-icon,
+    .linkedin-icon {
+        height: 37px;
+        width: 37px;
+    }
+}
+
 .banner-container {
     position: absolute;
     left: 50%;
@@ -463,7 +490,6 @@ ul li {
     justify-content: space-around !important;
     padding-left: 0;
     border-radius: 0.2rem;
-    font-size: 35px;
     margin-left: 20% !important;
     margin-right: 20% !important;
 }
@@ -494,22 +520,16 @@ ul li {
 .github-icon {
     color: rgb(36, 41, 47);
     background: rgb(36, 41, 47);
-    height: 35px;
-    width: 35px;
 }
 
 .linkedin-icon {
     color: rgb(0, 119, 181);
     background: rgb(0, 119, 181);
-    height: 35px;
-    width: 35px;
 }
 
 .mail-icon {
     color: rgb(177, 89, 102);
     background: rgb(177, 89, 102);
-    height: 35px;
-    width: 35px;
 }
 
 .icons-general {
