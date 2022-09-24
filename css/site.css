@@ -452,7 +452,7 @@ ul li {
     justify-content: space-around !important;
     padding-left: 0;
     border-radius: 0.2rem;
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 20% !important;
     margin-right: 20% !important;
 }
@@ -483,22 +483,22 @@ ul li {
 .github-icon {
     color: rgb(36, 41, 47);
     background: rgb(36, 41, 47);
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 
 .linkedin-icon {
     color: rgb(0, 119, 181);
     background: rgb(0, 119, 181);
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 
 .mail-icon {
-    color: rgb(232, 66, 66);
-    background: rgb(232, 66, 66);
-    height: 40px;
-    width: 40px;
+    color: rgb(177, 89, 102);
+    background: rgb(177, 89, 102);
+    height: 35px;
+    width: 35px;
 }
 
 .icons-general {
