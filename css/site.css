@@ -395,9 +395,20 @@ ul li {
         visibility: hidden;
         opacity: 0;
     }
-    60% {
+    70% {
         opacity: 0;
         transform: translateY(40%);
+    }
+    85% {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    90% {
+        transform: translateY(0%);
+    }
+    93% {
+        transform: translateY(-20%);
     }
     100% {
         visibility: visible;
@@ -458,15 +469,15 @@ ul li {
 }
 
 .github-icon {
-    animation: title-links-fade-in 1.7s;
+    animation: title-links-fade-in 2.5s;
 }
 
 .linkedin-icon {
-    animation: title-links-fade-in 1.8s;
+    animation: title-links-fade-in 2.6s;
 }
 
 .mail-icon {
-    animation: title-links-fade-in 1.9s;
+    animation: title-links-fade-in 2.7s;
 }
 
 .banner-links li {
