@@ -526,11 +526,8 @@ ul li {
 }
 
 .icons-general:hover {
-    color: rgb(170, 170, 170);
-}
-
-.icons-general:active {
-    color: rgb(150, 150, 150);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f;
 }
 
 .down-arrow:hover {
