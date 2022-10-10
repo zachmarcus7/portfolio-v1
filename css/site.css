@@ -390,29 +390,21 @@ ul li {
     }
 }
 
-@keyframes title-links-fade-in {
+@keyframes links-fade-in {
     0% {
         visibility: hidden;
         opacity: 0;
+        transform: translateY(40%);
     }
+
     70% {
         opacity: 0;
         transform: translateY(40%);
     }
-    85% {
-        visibility: visible;
-        opacity: 1;
-        transform: translateY(0%);
-    }
-    90% {
-        transform: translateY(0%);
-    }
-    93% {
-        transform: translateY(-28%);
-    }
+
     100% {
         visibility: visible;
-        opacity: 1;
+        opacity: 90%;
         transform: translateY(0%);
     }
 }
@@ -489,21 +481,21 @@ ul li {
     display: flex !important;
     justify-content: space-around !important;
     padding-left: 0;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
     margin-left: 20% !important;
     margin-right: 20% !important;
 }
 
 .github-icon {
-    animation: title-links-fade-in 2.5s;
+    animation: links-fade-in 2.3s;
 }
 
 .linkedin-icon {
-    animation: title-links-fade-in 2.6s;
+    animation: links-fade-in 2.5s;
 }
 
 .mail-icon {
-    animation: title-links-fade-in 2.7s;
+    animation: links-fade-in 2.7s;
 }
 
 .banner-links li {
@@ -515,12 +507,6 @@ ul li {
     font-weight: 700 !important;
     letter-spacing: -1.9px;
     animation: title-fade-in 0.9s;
-}
-
-.github-icon,
-.linkedin-icon,
-.mail-icon {
-    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
 }
 
 .github-icon {
@@ -539,7 +525,7 @@ ul li {
 }
 
 .icons-general {
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
     transition: transform 400ms cubic-bezier(0.25, 0.8, 0.25, 1),box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -647,11 +633,10 @@ ul li {
 
 .about-right-container {
     background-color: rgb(20, 70, 93) !important;
-    border-radius: 0.2rem;
+    border-radius: 0.9rem;
     text-align: left !important;
     padding: 3%;
     padding-bottom: 5%;
-    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
 }
 
 .about-right-container h6 {
@@ -678,7 +663,6 @@ ul li {
     width: 6rem;
     object-fit: contain;
     border-radius: 50%;
-    box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f;
 }
 
 .about-image-heading {
@@ -726,10 +710,6 @@ ul li {
     border-bottom-right-radius: 25px;
     background-color: black;
     cursor: pointer;
-}
-
-.project-link img {
-    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
 }
 
 .project-link-container img {
@@ -889,11 +869,10 @@ ul li {
 
 .resume-left-container {
     background-color: rgb(33, 82, 105) !important;
-    border-radius: 0.2rem;
+    border-radius: 0.9rem;
     text-align: left !important;
     padding: 3%;
     padding-bottom: 5%;
-    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
 }
 
 .resume-left-container h6 {
