@@ -203,75 +203,10 @@ p {
 }
 
 @media only screen and (min-width: 1024px) {
-    h1 {
-           font-size: 78px;
-    }
-
-    p {
-        font-size: 16px;
-    }
 
     .mobile-container {
         padding-top: 4%;
     }
-}
-
-@media only screen and (min-width: 1200px) {
-    h1 {
-        font-size: 86px;
-    }
-
-}
-
-@media only screen and (min-width: 3840px) {
-    h1 {
-        font-size: 180px;
-    }
-
-    h2 {
-        font-size: 150px;
-    }
-
-    h3 {
-        font-size: 100px;
-    }
-
-    h4 {
-        font-size: 80px;
-    }
-
-    h5 {
-        font-size: 50px;
-    }
-
-    h6 {
-        font-size: 46px;
-    }
-
-    p, a, i {
-        font-size: 44px;
-    }
-
-    .fa-solid {
-        font-size: 48px !important;
-    }
-
-    .icon-large-screen {
-        font-size: 100px !important;
-    }
-
-    .mobile-container {
-        padding-top: 2%;
-    }
-
-    .project-single-container {
-        padding-bottom: 9% !important;
-    }
-
-    .resume-container {
-        height: 100% !important;
-    }
-
 }
 
 /* Header
