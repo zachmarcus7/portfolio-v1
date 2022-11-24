@@ -318,6 +318,9 @@ ul li {
         opacity: 0;
         transform: translateY(40%);
     }
+    70% {
+        opacity: 0;;
+    }
     100% {
         visibility: visible;
         opacity: 1;
