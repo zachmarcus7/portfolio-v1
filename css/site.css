@@ -506,7 +506,7 @@ ul li {
 .banner-header {
     font-weight: 700 !important;
     letter-spacing: -1.9px;
-    animation: title-fade-in 0.9s;
+    animation: title-fade-in 1.2s;
 }
 
 .github-icon {
