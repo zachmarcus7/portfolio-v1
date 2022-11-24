@@ -311,7 +311,6 @@ ul li {
     transform: translateX(0%);
 }
 
-
 @keyframes title-fade-in {
     0% {
         visibility: hidden;
@@ -319,6 +318,7 @@ ul li {
         transform: translateY(40%);
     }
     70% {
+        transform: translateY(40%);
         opacity: 0;;
     }
     100% {
