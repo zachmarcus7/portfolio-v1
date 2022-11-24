@@ -317,7 +317,7 @@ ul li {
         opacity: 0;
         transform: translateY(40%);
     }
-    70% {
+    40% {
         transform: translateY(40%);
         opacity: 0;;
     }
