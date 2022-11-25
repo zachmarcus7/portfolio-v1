@@ -220,11 +220,11 @@ p {
 @media (min-width: 2000px) {
     
     h1 {
-        font-size: 94px;
+        font-size: 84px;
     }
     
     .container {
-        max-width: 1500px !important;
+        max-width: 1350px !important;
     }
 }
 
@@ -816,6 +816,7 @@ ul li {
     -moz-background-size: cover;
     -o-background-size: cover;
     overflow: hidden;
+    min-height: 60vh;
 }
 
 .resume-header-container {
