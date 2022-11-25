@@ -209,7 +209,19 @@ p {
     }
 }
 
+@media (min-width: 1600px) {
+ 
+    h1 {
+        font-size: 74px;
+    }
+    
+}
+
 @media (min-width: 2000px) {
+    
+    h1 {
+        font-size: 94px;
+    }
     
     .container {
         max-width: 1500px !important;
