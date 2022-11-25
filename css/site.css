@@ -209,6 +209,13 @@ p {
     }
 }
 
+@media (min-width: 2000px) {
+    
+    .container {
+        max-width: 1500px !important;
+    }
+}
+
 /* Header
 -------------------------------------------------- */
 
