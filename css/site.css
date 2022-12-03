@@ -688,6 +688,10 @@ ul li {
     padding: 0px !important; 
 }
 
+.modal img {
+    border-top-right-radius: 0px !important;
+}
+
 .project-modal-header {
     color: black !important;
     font-weight: bold;
