@@ -662,7 +662,7 @@ ul li {
 .project-img-container {
     display: inline-flex;
     box-sizing: unset;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 30px;
     background-color: black;
     cursor: pointer;
 }
@@ -672,7 +672,7 @@ ul li {
     width: 100%;
     overflow: hidden;
     object-fit: contain;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 30px;
     transition: all 0.4s;
 }
 
