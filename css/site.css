@@ -443,6 +443,18 @@ ul li {
     }
 }
 
+@media only screen and (min-width: 1920px) {
+    .banner-links {
+        font-size: 45px;
+    }
+    .mail-icon,
+    .github-icon,
+    .linkedin-icon {
+        height: 45px;
+        width: 45px;
+    }
+}
+
 .banner-container {
     position: absolute;
     left: 50%;
@@ -458,6 +470,12 @@ ul li {
     border-radius: 0.4rem;
     margin-left: 20% !important;
     margin-right: 20% !important;
+}
+
+.fa-brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .github-icon {
