@@ -218,6 +218,12 @@ p {
     
 }
 
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1300px !important;
+    }
+}
+
 @media (min-width: 2000px) {
     
     h1 {
@@ -238,10 +244,6 @@ p {
     
     p {
         font-size: 17px
-    }
-    
-    .container {
-        max-width: 1350px !important;
     }
 }
 
