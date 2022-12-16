@@ -66,6 +66,7 @@ body {
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -232,11 +233,11 @@ p {
     }
     
     h6 {
-        font-size: 17px;
+        font-size: 18px;
     }
     
     p {
-        font-size: 16px
+        font-size: 17px
     }
     
     .container {
