@@ -223,6 +223,22 @@ p {
         font-size: 84px;
     }
     
+    h4 {
+        font-size: 29px;   
+    }
+    
+    h5 {
+        font-size: 20px;
+    }
+    
+    h6 {
+        font-size: 19px;
+    }
+    
+    p {
+        font-size: 18px
+    }
+    
     .container {
         max-width: 1350px !important;
     }
