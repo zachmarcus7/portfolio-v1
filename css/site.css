@@ -1029,7 +1029,7 @@ main, body {
 /* Bootstrap modifications
 -------------------------------------------------- */
 
-.modal-fade .modal-dialog {
+.modal.fade .modal-dialog {
     height: 100vh !important;
     display: flex !important;
     justify-content: center !important;
