@@ -1024,5 +1024,14 @@ main, body {
 
 .carousel-control.right {
    right: 0;
-   
+}
+
+/* Bootstrap modifications
+-------------------------------------------------- */
+
+.modal-fade .modal-dialog {
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
