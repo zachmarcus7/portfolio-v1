@@ -768,7 +768,7 @@ ul li {
 
 @media (min-width: 992px) {
   .modal-header {
-    width: 75w;
+    width: 75vw;
   }
 }
 
