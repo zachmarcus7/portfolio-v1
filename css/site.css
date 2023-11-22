@@ -110,7 +110,7 @@ a {
 }
 
 .grey-text {
-  color: rgb(170, 170, 170);
+  color: rgb(170, 170, 170) !important;
 }
 
 .white-text {
@@ -649,10 +649,10 @@ ul li {
 
 .about-right-container {
   background-color: rgb(20, 70, 93) !important;
-  border-radius: 0.9rem;
   text-align: left !important;
   padding: 3%;
   padding-bottom: 5%;
+  border-top-right-radius: 50px;
 }
 
 .about-right-container h6 {
@@ -695,6 +695,13 @@ ul li {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   text-align: left !important;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+  .about-words {
+    padding-right: 3rem;
+  }
 }
 
 /* Projects
@@ -759,15 +766,15 @@ ul li {
   padding: 0px !important;
 }
 
-@media (max-width: 1799px) {
+@media (min-width: 992px) {
   .modal-header {
-    width: 75vw !important;
+    width: 75w;
   }
 }
 
 @media (min-width: 1800px) {
   .modal-header {
-    width: 50vw !important;
+    width: 50vw;
   }
 }
 
@@ -912,7 +919,7 @@ ul li {
 
 .resume-left-container {
   background-color: rgb(33, 82, 105) !important;
-  border-radius: 0.9rem;
+  border-top-right-radius: 50px;
   text-align: left !important;
   padding: 3%;
   padding-bottom: 5%;
@@ -958,20 +965,24 @@ ul li {
   animation: up-fade-in 1s;
 }
 
-.resume-right-container {
-  padding-top: 3%;
-}
-
 .resume-right-container-fade-in {
   animation: up-fade-in 1s;
 }
 
-.resume-right-container p {
+.resume-left-container p {
   color: rgb(170, 170, 170) !important;
 }
 
-.resume-right-container h6 {
-  color: white !important;
+.resume-right-container p {
+  color: white;
+}
+
+.resume-list {
+  padding-left: 1.5rem !important;
+}
+
+.resume-list li {
+  text-align: left !important;
 }
 
 main,
@@ -988,6 +999,7 @@ body {
 
 .footer-container {
   background-color: rgb(5, 14, 45);
+  padding-bottom: 3rem;
 }
 
 .number-link {
