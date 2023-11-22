@@ -768,13 +768,13 @@ ul li {
 
 @media (min-width: 992px) {
   .modal-header {
-    width: 75vw;
+    width: 45vw;
   }
 }
 
 @media (min-width: 1800px) {
   .modal-header {
-    width: 50vw;
+    width: 40vw;
   }
 }
 
