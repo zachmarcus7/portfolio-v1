@@ -760,6 +760,12 @@ ul li {
   opacity: 50%;
 }
 
+.project-header {
+  border-bottom: solid rgba(62, 112, 135, 0.5) 1px;
+  padding-bottom: 0.5rem;
+  width: fit-content;
+}
+
 .project-links h6 {
   cursor: pointer;
 }
