@@ -721,7 +721,9 @@ ul li {
   font-weight: bold;
   animation: title-fade-in 0.9s;
   color: white;
-  margin-bottom: 2%;
+  border-bottom: solid rgba(62, 112, 135, 0.5) 1px;
+  padding-bottom: 0.5rem;
+  width: fit-content;
 }
 
 .project-link-container {
@@ -760,14 +762,17 @@ ul li {
   opacity: 50%;
 }
 
-.project-header {
-  border-bottom: solid rgba(62, 112, 135, 0.5) 1px;
-  padding-bottom: 0.5rem;
-  width: fit-content;
-}
-
 .project-links h6 {
   cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  width: fit-content;
+  border-radius: 999px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.925rem !important;
 }
 
 .modal-header {
