@@ -1010,6 +1010,26 @@ body {
   transition: all ease-in 0.4s;
 }
 
+.footer-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-icon-container i {
+  height: 40px;
+  width: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px !important;
+  padding: 0px !important;
+  border-radius: 100%;
+}
+
 .number-link:hover {
   color: rgb(150, 150, 150);
 }
