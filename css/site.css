@@ -650,9 +650,10 @@ ul li {
 .about-right-container {
   background-color: rgb(20, 70, 93) !important;
   text-align: left !important;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f;
+  border: solid rgba(62, 112, 135, 0.5) 1px;
 }
 
 .about-right-container h6 {
@@ -923,7 +924,8 @@ ul li {
   text-align: left !important;
   border-radius: 8px;
   box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f;
-  padding: 1rem;
+  padding: 1.5rem;
+  border: solid rgba(62, 112, 135, 0.5) 1px;
 }
 
 .resume-left-container h6 {
@@ -936,22 +938,6 @@ ul li {
 
 .resume-degree-type {
   color: rgb(105, 155, 178) !important;
-}
-
-.resume-button {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0.35em 1.2em;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 0.12em;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-weight: 300;
-  background-color: rgb(89, 183, 157);
-  color: white !important;
-  text-align: center;
-  transition: all 0.4s;
-  font-family: 'DM Sans', sans-serif;
 }
 
 .resume-button:hover {
@@ -980,6 +966,7 @@ ul li {
 
 .resume-list {
   padding-left: 1.5rem !important;
+  margin-right: 3rem;
 }
 
 .resume-list li {
