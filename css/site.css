@@ -720,8 +720,6 @@ ul li {
   font-weight: bold;
   animation: title-fade-in 0.9s;
   color: white;
-  border-bottom: solid rgba(62, 112, 135, 0.5) 1px;
-  padding-bottom: 0.5rem;
   font-family: 'Inter' !important;
 }
 
