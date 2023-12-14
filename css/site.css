@@ -650,10 +650,9 @@ ul li {
 .about-right-container {
   background-color: rgb(20, 70, 93) !important;
   text-align: left !important;
-  padding: 1.5rem;
-  border-radius: 8px;
+  padding: 1rem;
+  border-radius: 24px;
   box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f;
-  border: solid rgba(62, 112, 135, 0.5) 1px;
 }
 
 .about-right-container h6 {
@@ -941,10 +940,9 @@ ul li {
 .resume-left-container {
   background-color: rgb(33, 82, 105) !important;
   text-align: left !important;
-  border-radius: 8px;
+  border-radius: 24px;
   box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f;
-  padding: 1.5rem;
-  border: solid rgba(62, 112, 135, 0.5) 1px;
+  padding: 1rem;
 }
 
 .resume-left-container h6 {
